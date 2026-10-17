@@ -1,0 +1,1 @@
+Minimal home screen for a phone in the car: maps, music, phone. No network.

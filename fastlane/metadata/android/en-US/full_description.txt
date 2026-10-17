@@ -1,0 +1,15 @@
+<p>A minimal home screen for an old phone that lives in a car: navigation, music, phone, nothing else.</p>
+
+<ul>
+<li>A big clock and date</li>
+<li>A now-playing strip with previous / play-pause / next, for whichever app is playing</li>
+<li>One large tile per app: CoMaps, Google Maps, TomTom, HERE WeGo, Music (Twelve), Phone, Settings</li>
+<li>A tile only shows when its app is installed and enabled, and the grid updates live as apps come and go</li>
+<li>Dark and high-contrast, with every touch target at least 120 dp. Works in portrait and landscape.</li>
+</ul>
+
+<p><b>No network permission, no analytics, no ads, no tracking.</b></p>
+
+<p><b>Setup:</b> make it the home screen under <i>Settings → Apps → Default apps → Home app</i>. To enable the music controls, tap the <i>"Tap to show music controls"</i> strip and allow notification access. Android only lets an app see other apps' media sessions with that access; Car Launcher's listener service is empty and reads no notifications.</p>
+
+<p>Tiles for apps that are not installed are simply hidden. Car Launcher does not bundle, download or recommend any of them.</p>

@@ -1,0 +1,1 @@
+First release: clock and date, now-playing controls for any media app, and large tiles for navigation, music, phone and settings. No network permission.

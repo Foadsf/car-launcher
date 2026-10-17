@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Car Launcher</string>
+    <string name="tile_comaps">CoMaps</string>
+    <string name="tile_google_maps">Google Maps</string>
+    <string name="tile_tomtom">TomTom</string>
+    <string name="tile_here">HERE WeGo</string>
+    <string name="tile_music">Music</string>
+    <string name="tile_phone">Phone</string>
+    <string name="tile_settings">Settings</string>
+    <string name="nothing_playing">Nothing playing</string>
+    <string name="grant_media_access">Tap to show music controls</string>
+    <string name="grant_media_access_detail">Allow notification access for Car Launcher</string>
+    <string name="previous">Previous</string>
+    <string name="play_pause">Play or pause</string>
+    <string name="next">Next</string>
+</resources>

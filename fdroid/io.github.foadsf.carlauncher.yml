@@ -1,0 +1,25 @@
+Categories:
+  - Launcher
+License: GPL-3.0-only
+AuthorName: Foad S. Farimani
+SourceCode: https://github.com/Foadsf/car-launcher
+IssueTracker: https://github.com/Foadsf/car-launcher/issues
+
+AutoName: Car Launcher
+
+RepoType: git
+Repo: https://github.com/Foadsf/car-launcher.git
+
+Builds:
+  - versionName: 0.1.0
+    versionCode: 1
+    commit: dbeab585468cfea17175bcecc1e67c1c0236b136
+    subdir: app
+    gradle:
+      - yes
+    prebuild: sdkmanager "platforms;android-37.0" "build-tools;37.0.0"
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 0.1.0
+CurrentVersionCode: 1
